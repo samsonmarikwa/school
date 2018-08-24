@@ -1,0 +1,24 @@
+{
+    "name": "VirtualSchool",
+    "version": "0.1.0",
+    "private": true,
+    "proxy": "http://localhost:3001/",
+    "dependencies": {
+        "axios": "^0.16.2",
+        "firebase": "^5.4.0",
+        "react": "^16.0.0",
+        "react-bootstrap": "^0.32.1",
+        "react-dom": "^16.0.0",
+        "react-iframe": "^1.2.0",
+        "react-moment": "^0.7.9",
+        "react-responsive-carousel": "^3.1.41",
+        "react-router-dom": "^4.3.1",
+        "react-scripts": "1.0.14"
+    },
+    "scripts": {
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "test": "react-scripts test --env=jsdom",
+        "eject": "react-scripts eject"
+    }
+}
