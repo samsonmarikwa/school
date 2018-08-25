@@ -7,6 +7,9 @@ import Navbar from './components/Nav';
 import Register from './components/Register';
 import EducationArticle from './components/EducationArticle';
 import LiveSession from "./components/LiveSession";
+import SigninModal from "./components/SigninModal";
+import Student from "./components/Student";
+import StudentLiveSession from "./components/StudentLiveSession";
 
 class App extends Component {
   
@@ -20,6 +23,9 @@ class App extends Component {
         <Route path="/register" component={Register} />
         <Route path="/educationarticle" component={EducationArticle} />
         <Route path="/livesession" component={LiveSession} />
+        <Route path="/signin" component={SigninModal} />
+        <Route path="/studentarticle" component={Student} />
+        <Route path="/studentlivesession" component={StudentLiveSession} />
       </div>
     </Router>
     );

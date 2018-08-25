@@ -1,0 +1,17 @@
+a {
+    color:white
+};
+
+a:active {
+    border: none;
+}
+
+
+
+a:hover {
+   color: white;
+   text-decoration-line: none;
+   background-color: transparent;
+
+    
+}

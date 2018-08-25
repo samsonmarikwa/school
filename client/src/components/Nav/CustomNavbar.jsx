@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Navbar, Nav, NavItem } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import './CustomNavbar.css';
+import SigninModal from "../SigninModal"
 
 export default class CustomNavbar extends Component {
    render() {
@@ -31,7 +32,7 @@ export default class CustomNavbar extends Component {
                      Live Session
                   </NavItem>
                   <NavItem eventKey = {6} componentClass={Link} href="/signin" to="/signin">
-                     Sign In
+                     <SigninModal></SigninModal>
                   </NavItem>
                   <NavItem eventKey = {7} componentClass={Link} href="/register" to="/register">
                      Register
